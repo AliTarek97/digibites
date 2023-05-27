@@ -102,21 +102,21 @@ interface Product {
   const basket = new Basket(catalogue, deliveryRules, offers);
   // basket.add('B01');
   // basket.add('G01');
-  // console.log(basket.total()); // Output: 37.85
+  // console.log(basket.total());
   
   // basket.add('R01');
   // basket.add('R01');
-  // console.log(basket.total()); // Output: 54.37
+  // console.log(basket.total());
   
   // basket.add('R01');
   // basket.add('G01');
-  // console.log(basket.total()); // Output: 60.85
+  // console.log(basket.total());
   
-  // basket.add('B01');
-  // basket.add('B01');
-  // basket.add('B01');
+  basket.add('B01');
+  basket.add('B01');
+  basket.add('B01');
   basket.add('R01');
   basket.add('R01');
   basket.add('R01');
-  console.log(basket.total()); // Output: 98.27
+  console.log(basket.total()); 
   
